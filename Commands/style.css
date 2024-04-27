@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Noto Serif Khmer';
+}
+
+body {
+  background: #1b2422;
+  margin: 0;
+}
+
+/*/---------\
+        header
+    *\---------/*/
+header {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 35px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+/*/---------\
+        navbar
+    *\---------/*/
+.navbar a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 25px;
+  background: fixed;
+}
+
+nav a:hover,
+nav a.active {
+  color: #0ae2ff;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+}
+
+/* Contact Section */
+.contact {
+  color: #0ae2ff;
+  padding: 200px 20% 50px; /* Adjusted padding to leave more space at the top */
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contact h1::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -5px; /* Adjust this value to control the distance between text and underline */
+width: 100%; /* Width of underline */
+height: 5px; /* Height of underline */
+background-color: #0ae2ff; /* Color of underline */
+text-decoration-skip: spaces; /* Skip spaces for underline */
+}
+
+.contact h2 {
+font-size: 50px;
+margin-bottom: 15px;
+position: relative;
+}
+
+.contact h2::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -5px; /* Adjust this value to control the distance between text and underline */
+width: 100%; /* Width of underline */
+height: 1px; /* Height of underline */
+background-color: #ffffff; /* Color of underline */
+text-decoration-skip: spaces; /* Skip spaces for underline */
+}
+
+
+.Terms p, .Economy p, .Earning p, .Game p, .Action p, .Emote p{
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 2%;
+  margin: 0;
+  text-align: left;
+  }
+
+
